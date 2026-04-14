@@ -1,22 +1,42 @@
 
 
-nav ul{
-    text-decoration: none;
-    display: flex;
+nav  {
     
-    align-items: center;
-    
-    justify-content: flex-end;
-    gap: 5rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    padding: 1.5rem;
+    border-bottom: 2px solid black;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
 
-    margin: 0;
-    list-style-type: none;
-     color: black;
-     border: solid 2px black;
-     
+}
+nav .logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin:0;
+    padding: 0;
+    flex-wrap: wrap;
+
+}
+nav ul a{
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 
+body{
+    margin:0;
+}
     
 
 
@@ -60,9 +80,10 @@ header a{
 .card{
     border: solid black 2px;
     background-color: lightgray;
-    min-width: 7rem;
+    width:15rem;
+    padding: 5px;
 }
-
+    
 footer{
     background-color:  grey;
     display: flex;
